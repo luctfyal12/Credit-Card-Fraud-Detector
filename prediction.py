@@ -58,7 +58,6 @@ def prediction():
         source = st.selectbox("Transaction Source:",["Online", "In-Person"])
         ip_address = st.text_input("IP Address:")
         device = st.selectbox("Device Information:", ['Tablet', 'Mobile', 'Desktop'])
-        trans_source = st.selectbox("Transaction Source", ["Online", "In-Person"])
         username = st.text_input("User Account Information:", placeholder="Masukan Username anda")
         notes = st.text_input("Transaction Notes", placeholder="Masukan catatan")
         submit = st.form_submit_button("Predict")
@@ -80,7 +79,7 @@ def prediction():
     'Transaction Response Code': resp_code,                    
     'Transaction ID': trans_id,                        
     'Previous Transactions': prev_trans,                       
-    'Transaction Source': trans_source,                   
+    'Transaction Source': source,                   
     'IP Address': ip_address,                      
     'Device Information': device,                
     'User Account Information': username,
