@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
 import preprocessing_utils
-import dill as pickle
+import pickle
 
 with open("best_model.pkl", "rb") as f:
     model = pickle.load(f)
