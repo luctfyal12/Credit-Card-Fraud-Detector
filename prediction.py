@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd 
 import matplotlib.pyplot as plt
 import seaborn as sns
-import dill as pickle
+import pickle
 import numpy as np
 import preprocessing_utils
 
