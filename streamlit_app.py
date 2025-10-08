@@ -1,5 +1,5 @@
 import streamlit as st
-import dill as pickle
+import pickle
 import sys
 import types
 import pandas as pd
